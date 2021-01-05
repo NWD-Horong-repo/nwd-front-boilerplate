@@ -1,4 +1,10 @@
 import React, { ReactElement } from 'react';
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+  margin-top: 30px;
+  background-color: red;
+`;
 
 function LandingPage(): ReactElement {
   return (
@@ -16,6 +22,7 @@ function LandingPage(): ReactElement {
           Learn React
         </a>
       </header>
+      <StyledDiv>StyledDiv sample</StyledDiv>
     </div>
   );
 }
